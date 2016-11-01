@@ -5,6 +5,7 @@
  * This code will loop over requesting PID availablility and print all parameters available.
  * Monitor you com port (ensure you've installed necessary drivers!) using your favorite tool, program below is set to 115200 baud.
  * Reference https://en.wikipedia.org/wiki/OBD-II_PIDs#Mode_1_PID_00 for pid info.
+ * Make sure to include base85.h in the ide.
  */
 
 
