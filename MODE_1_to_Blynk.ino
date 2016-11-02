@@ -1,13 +1,16 @@
 
 /*
  * Copyright 2016 Emerson Garland
- * Free to modify, share and do whatever
+ * Free to modify, share and do whatever, just give me credit if you like it!
+ * This code will publish chosen obdii compliant messages to blynk for data visualization.
  */
 
-//#include "application.h"
-#include "carloop.h"
+//#include "carloop.h"
+// include carloop.h using the ide add library function.
 #include "base85.h"
-#include "blynk/blynk.h"
+// include base85.h by copy and pasting base85.h located in this repository into the web ide
+//#include "blynk/blynk.h"
+// include blynk/blynk.h using the ide add library function.
 
 SYSTEM_MODE(SEMI_AUTOMATIC);
 SYSTEM_THREAD(ENABLED);
@@ -449,7 +452,7 @@ void loop() {
 	publishValuesAtInterval();
 	obdLoopFunction();
 	waitForObdResponse();
-    math();
+        math();
 
 }
 
@@ -575,9 +578,9 @@ void publishValuesAtInterval() {
 
 void blynkValues() {
     //TODO: ONLY SEND DATA WHEN THE ENGINE IS ON
-        Blynk.run();
-        String StringMIL_STATUS                             = String(MIL_STATUS);
-        String StringFUEL_SYSTEM_STATUS                     = String(FUEL_SYSTEM_STATUS);
+            Blynk.run();
+            String StringMIL_STATUS                             = String(MIL_STATUS);
+            String StringFUEL_SYSTEM_STATUS                     = String(FUEL_SYSTEM_STATUS);
 	    String StringENGINE_LOAD                            = String(ENGINE_LOAD);
 	    String StringENGINE_COOLANT_TEMPERATURE             = String(ENGINE_COOLANT_TEMPERATURE);
 	    String StringSHORT_TERM_FUEL_TRIM_BANK_1            = String(SHORT_TERM_FUEL_TRIM_BANK_1);
