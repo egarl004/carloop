@@ -1,0 +1,47 @@
+**************Printing PIDs 0-20 (HEXIDECIMAL)**************
+Monitor status since DTCs cleared
+Fuel system status
+Calculated engine load
+Engine coolant temperature
+Short term fuel trim Bank 1
+Long term fuel trim Bank 1
+Short term fuel trim Bank 2
+Long term fuel trim Bank 2
+Intake manifold absolute pressure
+Engine RPM
+Vehicle speed
+Timing advance
+Intake air temperature
+Throttle position
+Oxygen sensors present (in 2 banks)
+Oxygen Sensor 2 A:Voltage B:Short term fuel trim
+Oxygen Sensor 6 A:Voltage B:Short term fuel trim
+OBD standards this vehicle conforms to
+Run time since engine start
+PIDs supported [21 - 40]
+**************Printing PIDs 21-40 (HEXIDECIMAL)**************
+Distance traveled with malfunction indicator lamp (MIL) on
+Fuel Rail Gauge Pressure (diesel, or gasoline direct injection)
+Commanded evaporative purge
+Fuel Tank Level Input
+Warm-ups since codes cleared
+Distance traveled since codes cleared
+Absolute Barometric Pressure
+Oxygen Sensor 1 AB: Fuel Air Equivalence Ratio CD: Current
+Oxygen Sensor 5 AB: Fuel Air Equivalence Ratio CD: Current
+Catalyst Temperature: Bank 1, Sensor 1
+Catalyst Temperature: Bank 2, Sensor 1
+PIDs supported [41 - 60]
+**************Printing PIDs 41-60 (HEXIDECIMAL)**************
+Monitor status this drive cycle
+Control module voltage
+Absolute load value
+Fuel Air commanded equivalence ratio
+Relative throttle position
+Ambient air temperature
+Absolute throttle position B
+Accelerator pedal position D
+Accelerator pedal position E
+Commanded throttle actuator
+Fuel Type
+Evap system vapor pressure
