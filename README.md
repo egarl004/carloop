@@ -1,5 +1,4 @@
 # carloop
-1. Open build.particle.io and login
-2. Start a new project and copy/past all code here into its own tab.
-3. Plug your carloop in and connect to usb port on your machine.
-4. Using you favorite port monitoring tool, open the port and set baud to 115200. Make sure you have the necessary drivers installed.
+1. This repository of for visualizign data from your car using carloop and seeing available PIDs within the OBDII standard.
+2. Visit https://www.hackster.io/egarl004/visualize-car-data-with-carloop-and-blynk-49c991 for step by step directions on how to use the code here.
+
