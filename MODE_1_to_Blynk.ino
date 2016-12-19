@@ -565,12 +565,6 @@ void publishValuesAtInterval() {
     blynkValues();
 }
 
-//void publishValues() {
-
-
-//}
-
-
 ///////////////////////////////////////////////////
 //FUNCTION TO SEND DATA TO BYNK FOR VISUALIZATION//
 //THESE PARAMETERS ARE HERE AS AN EXAMPLE AND ARE//
